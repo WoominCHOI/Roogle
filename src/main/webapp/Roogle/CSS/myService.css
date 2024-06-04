@@ -1,0 +1,241 @@
+@charset "EUC-KR";
+#wrpper{
+    margin :  auto;
+    padding : 0px;
+    width : 100%;
+   	height: 2200px;
+    text-align: center;
+}
+input{
+    cursor: pointer;
+}
+.Guestmain{ /*게시판 전체구역을 감사는 영역*/
+    margin :  auto;
+    width: 1340px;
+    height: 1100px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+.sideba{/*사이드바 영역*/
+    width: 202px;
+    height : 850px;
+    float :left;
+    text-align: left;
+    padding-left: 15px;
+    color: #333;
+}
+.sideba a{/*사이드바 글씨체*/
+    width: 120px;
+    height: 30px;
+    color: #333;
+    border-radius: 5px;
+    font-weight:700;
+    text-decoration: none;
+}
+.frame{    /*개인 정보 처리방침을 감싸는영역*/
+    text-align: left;
+    width: 900px;
+    float: left
+}
+.service{/*개인 정보 처리방침의 테이블*/
+    th{
+        text-align: center;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #8b8b8b;
+    }
+    td{
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+    }
+}
+/*마이페이지 CSS*/
+table{
+    text-align: left;
+    border-spacing: 0;
+    margin: 0 auto;
+    width: 800px;
+    border:2px solid #333;
+    border-radius: 10px;
+}
+td{
+    border-bottom: 4px solid whitesmoke;
+    padding: 20px;
+}
+input::placeholder {/*플레이스홀더 색상*/
+    color: gray;
+} 
+  /*======================여기서부터 게시판 css========================================*/
+  #Guest_Menu {
+  text-align: center;
+  	width : 100%;
+  	height: 30px;
+  	display: inline-flex;
+  }
+  
+.Guestframe{
+    text-align: left;
+    width: 900px;
+    height: auto;
+}
+.Guestframe h4{
+    color: #5a5a5a;
+}
+.Guestframe hr{
+    background: gray;
+    width: 900px;
+    height: 1px;
+    border: 0;
+}
+.guestList{/*게시판의 글목록*/
+    text-align: center;
+    margin: auto;
+    width: 900px;
+    height: 30px;
+    border: 1px solid #ccc;
+    
+    display: inline-flex;
+}
+.guestList > div{
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+}
+.gsNo{/*글번호*/
+    width: 10%;
+    border-right: 1px solid #ccc;
+}
+.gsTit{/*제목*/
+    width: 35%;
+    border-right: 1px solid #ccc;
+}
+.gsPer{/*작성자*/
+    width: 20%;
+    border-right : 1px solid #ccc;
+}
+.gsDat{/*작성일*/
+    width: 25%;
+    border-right : 1px solid #ccc;
+}
+.gsCnt{/*조회수*/
+    width: 10%;
+}
+.guestBut{/*글작성*/
+    width :120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFF;
+    background: #333;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*=========================================게시판 글쓰기========================================================*/
+.GuestWriteframe{
+    text-align: left;
+    width: 900px;
+    height: 1100px;
+    float: left;
+}
+table{
+    margin : auto;
+}
+thead{
+    text-align : right;
+    color : rgba(131, 133, 255, 0.822);    
+}
+table a{
+    text-decoration-line : none;
+    color: inherit;
+}
+table a:hover{
+    color : rgb(131, 133, 255);    
+} 
+tbody > tr{
+    height : 50px;
+}
+.block{
+    color : rgba(131, 133, 255, 0.822);
+}
+.twd{/*작성자, 비밀멉호 input영역*/
+    width : 245px;
+    height : 50px;
+    border-radius : 5px;
+    border : 2px solid #333;
+    font-size : 20px;
+}
+.title{/*이메일, 제목 input영역*/
+    width : 650px;
+    height : 50px;
+    border-radius : 5px;
+    border : 2px solid #333;
+    font-size : 20px;
+}
+.contents{/*내용부분의 input영역*/
+    width : 650px;
+    height : 430px;
+    border-radius : 5px;
+    border : 2px solid #333;
+    font-size : 20px;
+}
+.button{
+    font-size : 20px;
+    width : 120px;
+    height:40px;
+    background : DodgerBlue;
+    color : white;
+    border-radius : 5px;
+    padding : 3px;
+    margin : 5px;
+    border : 0px;
+}
+input::placeholder{
+    color : #333;
+    font-size: 14px;
+    opacity: 60%;
+}
+textarea::placeholder{
+    font-size: 14px;
+    opacity: 60%;
+    font-weight: 600;
+    color : #333;
+}
+tfoot input{
+    float: right;
+}
+
+/* 페이징 css */
+.center {
+	text-align: center;
+	width: 80%;
+	height: 30px;
+}
+.pagination {
+	width: auto;
+	height: 100%;
+	font-size: 18px;
+}
+#pageLeft {
+	float: left;
+	
+	width: 8.1%;
+	height: 100%;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+#pageRight {
+	float: right;
+	
+	width: 8.1%;
+	height: 100%;
+	border-right: 1px solid gray;
+}
+.pageNum {
+	float: left;
+	
+	width: 8.1%;
+	height: 100%;
+	border-right: 1px solid gray;
+}
+
+

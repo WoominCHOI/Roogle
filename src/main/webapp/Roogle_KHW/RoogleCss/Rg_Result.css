@@ -1,0 +1,348 @@
+@min-media screen and (width: 600px) {
+	
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.iframeContainer {
+	width: 100%;
+	background-color: whitesmoke;
+}
+#wrapper {
+    width: 1340px;
+    min-height: 1200px;
+    max-height: 100%;
+    margin: auto;
+    position:relative;
+}
+#inner_wrapper {
+    padding: 0px 30px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px gray;
+}
+
+/* 섹션1 */
+#섹션블럭1 {
+    width: 100%;
+    min-height: 810px;
+    max-height: 100%;
+}
+#섹션1_위쪽공백 {
+    height: 50px;
+}
+#섹션1_우측공간 {
+    width: 48%;
+    min-height: 490px;
+    max-height: 100%;
+}
+#섹션1_가운데공백 {
+    width: 4%;
+    min-height: 490px;
+    max-height: 100%;
+}
+#섹션1_좌측공간 {
+    background-color: #FFF;
+    width: 48%;
+    height: 100%;
+    box-shadow: 0 2px 4px gray;
+}
+
+#플렉스블록 {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+#섹션1_사진공간 {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 2px 4px gray;
+}
+#섹션1_사진공간 img{
+    width: 100%;
+    height: 100%;
+}
+
+#섹션1_사진아래공백 {
+    margin: auto;
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+}
+#좌측사진변경 {
+    width: 11%;
+}
+#우측사진변경 {
+    width: 11%;
+}
+#사진목록 {
+    width: 400px;
+}
+#사진목록 ul{
+    display: inline-flex;
+}
+#사진목록 img{
+    width: 100px;
+    height: 100px;
+}
+
+#섹션1_동물정보공간아래공백 {
+
+}
+
+#섹션1_동물정보공간 {
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+}
+#이름가격_블럭 {
+    width: 100%;
+    min-height: 15%;
+    max-height: 100%;
+}
+#이름 {
+    font-size: 30px;
+    height: 100%;
+    padding: 10px;
+    background-color: #FFF;
+    box-shadow: 0 2px 0px rgba(0,0,0,0.1);
+}
+#이름가격_블럭 #영명{
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    margin: 10px;
+}
+#이름가격_블럭 #학명{
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    margin: 10px;
+}
+#이름_공백 {
+    height: 50px;
+    background-color: #FFF;
+}
+#가격라벨박스 {
+    width: 100%;
+    height: 70%;
+}
+#가격 {
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 235, 197);
+}
+#가격 div {
+    width: 90%;
+}
+#가격 img{
+    padding: 8px;
+    width: 10%;
+    height: 100%;
+}
+#가격라벨박스 ul{
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    font-size: 23px;
+    height: 0px;
+    opacity: 0;
+    background-color: rgb(255, 235, 197);
+}
+#가격라벨박스 li{
+    height: 0px;
+}
+#가격라벨박스 {
+    width: 100%;
+    height: 100%;
+}
+#가격체크박스:checked ~ #가격라벨박스 ul {
+    height: auto;
+    opacity: 1;
+}
+#가격체크박스:checked ~ #가격라벨박스 li {
+    height: auto;
+    opacity: 1;
+}
+#가격체크박스:checked ~ * #가격 {
+    box-shadow: 0 2px 0px rgb(211, 177, 163);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#버튼메뉴 {
+    width: 100%;
+    height: 200px;
+}
+#분양수방바구니결제_블럭 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+#분양수 {
+    width: 100%;
+    height: 15%;
+}
+#분양수 select{
+    width: 100%;
+    height: 100%;
+}
+#분양수 select{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+#분양수방바구니결제_블럭 button {
+    width: 100%;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 5px 0px;
+    color:#FFF;
+    background-color: rgb(71, 71, 71);
+}
+
+#동물정보_블럭 {
+    width: 100%;
+    min-height: 200px;
+    max-height: 100%;
+}
+#동물정보_블럭 .제목블럭 {
+    text-align: left;
+    width: 100%;
+    height: 25%;
+    padding: 10px;
+    font-size: 24px;
+}
+#동물세부사항 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+#동물세부사항 img {
+    transition: 0.3s ease-in-out;
+    float: right;
+    padding-top: 10px;
+    width: 20px;
+    height: 100%;
+}
+#서식지 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+#서식지 img{
+    transition: 0.3s ease-in-out;
+    float: right;
+    padding-top: 10px;
+    width: 20px;
+    height: 100%;
+}
+#키울때정보 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+#키울때정보 img{
+    transition: 0.3s ease-in-out;
+    float: right;
+    padding-top: 10px;
+    width: 20px;
+    height: 100%;
+}
+
+.정보블럭 {
+    margin: auto;
+    font-size: 0px;
+    height: 0;
+    opacity: 0;
+    transition: height 0.5s ease-in-out, opacity 0.5s;
+}
+#체크박스01:checked ~ * #동물세부사항 img {
+    transform: rotate(180deg);
+}
+#체크박스02:checked ~ * #서식지 img {
+    transform: rotate(180deg);
+}
+#체크박스03:checked ~ * #키울때정보 img {
+    transform: rotate(180deg);
+}
+
+#체크박스01:checked ~ #체크박스라벨01 .정보블럭 {
+    font-size: 22px;
+    height: auto;
+    opacity: 1;
+}
+#체크박스02:checked ~ #체크박스라벨02 .정보블럭 {
+    font-size: 22px;
+    height: auto;
+    opacity: 1;
+}
+#체크박스03:checked ~ #체크박스라벨03 .정보블럭 {
+    font-size: 22px;
+    height: auto;
+    opacity: 1;
+}
+/* 섹션1 */
+
+/* 섹션2 */
+#섹션블럭2 {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+#품목추천 {
+    text-align: left;
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    padding: 15px;
+}
+
+#추천품목리스트 {
+    list-style: none;
+    width: 95%;
+    height: 300px;
+    display: inline-flex;
+}
+#추천품목리스트 li{
+    text-align: left;
+    width: 20%;
+    min-height: 33%;
+    max-height: 100%;
+    margin: 0px 10px;
+}
+#추천품목리스트 li:last-child{
+    margin-left: 10px;
+}
+#추천품목리스트 .추천품목내용 {
+    width: 100%;
+}
+#추천품목리스트 li img{
+    width:  100%;
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#추천품목리스트 li div {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+#추천품목리스트 li button {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    background-color: #FFF;
+}
+/* 섹션2 */

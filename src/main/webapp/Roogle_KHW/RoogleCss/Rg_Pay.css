@@ -1,0 +1,448 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.iframeContainer {
+	width: 100%;
+	background-color: whitesmoke;
+}
+#wrapper {
+    margin: auto;
+    padding: 0px 10%;
+    width: 1340px;
+    min-height: 1200px;
+    max-height: 100%;
+    background-color: whitesmoke;
+}
+#플렉스블록 {
+    margin: 10px 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: inline-flex;
+    box-shadow: 0 1px 2px gray;
+}
+/*    */
+
+
+/*    */
+#왼쪽 {
+    width: 65%;
+    min-height: 1200px;
+    max-height: 100%;
+}
+#가운데공백 {
+    width: 2%;
+    min-height: 1200px;
+    max-height: 100%;
+}
+#오른쪽 {
+    width: 33%;
+    min-height: 1200px;
+    max-height: 100%;
+}
+/*    */
+
+
+/*    */
+#배송지 {
+    width: 100%;
+    height: 240px;
+    box-shadow: 0 1px 2px gray;
+}
+#배송지 h2{
+    height: 20%;
+    box-shadow: 0 1px 0px gray;
+}
+#배송지 #내용1 {
+    width: 100%;
+    height: 80%;
+}
+.상세정보칸 {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#배송메모입력블록 {
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+#배송지 p {
+    font-size: 20px;
+}
+#개인정보칸 {
+    width: 88%;
+}
+#변경버튼 {
+	width: 12%;	
+}
+#개인정보칸 p{
+    width: 100%;
+    height: 33.3%;
+}
+.개인정보변경 {
+    display: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+#배송메모 {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+#배송지 button {    
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+}
+#직접입력 {
+    display: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+/*    */
+
+
+/*    */
+#주문상품전체 {
+    box-shadow: 0 1px 2px gray;
+}
+#주문상품전체 h1{
+    padding: 10px;
+    height: 20%;
+    text-align: right;
+}
+#주문상품전체 h2{
+    height: 20%;
+    box-shadow: 0 1px 0px gray;
+}
+#주문상품전체 #내용2 {
+    height: 60%;
+}
+.주문상품 {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 100px;
+    box-shadow: 0 1px 2px gray;
+}
+.상품이미지블록 {
+    width: 100px;
+    height: 100%;
+}
+.상품이미지블록 img{
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+}
+.장바구니품목블록 {
+    display: inline-flex;
+    height: 100%;
+}
+.상품블록 {
+    padding: 10px 10px;
+}
+.상품블록 p {
+    font-size: 20px;
+}
+/*    */
+
+
+/*    */
+#결제수단 {
+    width: 100%;
+    height: 100%;
+}
+#내용3 {
+    box-shadow: 0 1px 2px gray;
+}
+#결제수단 h2 {
+    box-shadow: 0 1px 2px gray;
+}
+#결제수단 .카드메뉴 {
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    box-shadow: 0 1px 2px gray;
+}
+#메뉴제목1{
+    display: inline-flex;
+    width: 100%;
+}
+#메뉴제목1 p{
+    padding: 10px 0px;
+    width: 93%;
+    height: 100%;
+}
+#메뉴제목1 img{
+    width: 7%;
+    height: 100%;
+    padding: 10px;
+    transition: 0.2s;
+}
+#메뉴제목2{
+    display: inline-flex;
+    width: 100%;
+}
+#메뉴제목2 p{
+    padding: 10px 0px;
+    width: 93%;
+    height: 100%;
+}
+#메뉴제목2 img{
+    width: 7%;
+    height: 100%;
+    padding: 10px;
+    transition: 0.2s;
+}
+#메뉴제목3{
+    display: inline-flex;
+    width: 100%;
+}
+#메뉴제목3 p{
+    padding: 10px 0px;
+    width: 93%;
+    height: 100%;
+}
+#메뉴제목3 img{
+    width: 7%;
+    height: 100%;
+    padding: 10px;
+    transition: 0.2s;
+}
+#결제수단 .메뉴아이콘 img {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+#결제수단 .왼쪽화살표 {
+    float: left;
+    margin-top: 3%;
+    width: 40px;
+    height: 40px;
+}
+#결제수단 .오른쪽화살표 {
+    float: right;
+    margin-top: 3%;
+    width: 40px;
+    height: 40px;
+}
+.카드_플랙스블록 {
+    height: 100%;
+    display: inline-flex;
+}
+.카드_플랙스블록 div{
+    padding: 5px;
+    font-size: 15px;
+}
+#결제수단 .카드선택 {
+    width: 300px;
+    height: 100%;
+}
+#결제수단 .카드선택 img {
+    padding: 5px 0px;
+    width: 85px;
+    height: 100%;
+}
+#결제수단 h2 {
+    height: 50px;
+}
+.토글칸 {
+    padding-top: 5px;
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+#토글블록1 {
+    transition: height 0.2s ease-in-out;
+}
+#토글1:checked ~ * #토글블록1 {
+    height: 100px;
+    opacity: 1;
+}
+#토글1:checked ~ * #메뉴제목1 img {
+    transform: rotate(180deg);
+}
+#토글블록2 {
+    transition: height 0.2s ease-in-out;
+}
+#토글2:checked ~ * #토글블록2 {
+    height: 100px;
+    opacity: 1;
+}
+#토글2:checked ~ * #메뉴제목2 img {
+    transform: rotate(180deg);
+}
+#토글블록3 {
+    transition: height 0.2s ease-in-out;
+}
+#토글3:checked ~ * #토글블록3 {
+    height: 100px;
+    opacity: 1;
+}
+#토글3:checked ~ * #메뉴제목3 img {
+    transform: rotate(180deg);
+}
+#결제수단 label {
+    width: 100%;
+    min-height: 40px;
+    max-height: 100%;
+}
+/*    */
+
+
+/*    */
+#현금영수증 {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 1px 2px gray;
+}
+#현금영수증 h2{
+    width: 100%;
+    height: 25%;
+}
+#내용4 {
+    width: 100%;
+    height: 75%;
+}
+#내용4 .상세정보칸 {
+    display: inline-flex;
+}
+#현금영수증_API {
+    width: 88%;
+    height: 100%;
+}
+#현금영수증버튼 {
+	width: 12%;
+    height: 100%;
+}
+#현금영수증버튼 button{
+	height: 40px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+}
+#현금영수증 .상세정보칸 {
+    padding: 5px;
+    font-size: 20px;
+}
+#현금영수증변경 {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#현금영수증변경 div{
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid black;
+}
+#현금영수증변경 div input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30.5%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+/*    */
+
+
+#공백 {
+    width: 3%;
+    height: 100%;
+}
+
+
+/*    */
+#결제 {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 240px;
+}
+#결제 h2 {
+    box-shadow: 0 1px 2px gray;
+}
+#내용5 {
+    box-shadow: 0 1px 2px gray;
+}
+#결제 button {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    width: 95%;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+}
+#결제 .상세정보칸 {
+    padding-top: 10px;
+    font-size: 20px;
+}
+#결제 p {
+    width: 100%;
+}
+/*    */
+
+
+.상세정보칸 {
+    margin: auto;
+    width: 95%;
+    height: 95%;
+}
+.카드선택 {
+    background-color: rgb(235, 235, 235);
+    margin: auto;
+    width: 360px;
+    height: 120px;
+    border-radius: 10px;
+}
+.카드선택 img{
+    margin-left: 5px;
+}
+.카드메뉴 {
+    height: 50px;
+}
+
+#아래공백 {
+    width: 1%;
+    height: 200px;
+}
+
+iframe {
+    padding: 0;
+    width: 100%;
+    min-height: 300px;
+    max-height: 100%;
+}
+
+h2 {
+    padding: 5px 10px;
+    height: 20%;
+}
+
+.내용배경색 {
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    background-color: #FFF;
+}
+

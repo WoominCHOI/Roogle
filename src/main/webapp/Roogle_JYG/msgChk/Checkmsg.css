@@ -1,0 +1,39 @@
+
+
+#wrapper{
+    width: 100%; /* 페이지의 너비의 80%를 차지하도록 설정 */
+    margin: 0px auto; /* 수직으로 가운데 정렬 */
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#img{
+    width: 150px;
+    max-width: 100%; 
+}
+
+.void {
+	height: 80px;
+}
+
+.a{
+    background-color: white;
+    margin: 50px auto; 
+    width: 300px;
+    height: 180px;
+    border: 1px gray solid;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 60px; 
+}
+
+input[type=submit]{
+    margin-top: 70px; 
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}

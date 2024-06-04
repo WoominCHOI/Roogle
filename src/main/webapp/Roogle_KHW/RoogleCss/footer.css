@@ -1,0 +1,32 @@
+*{
+  border: 0;
+  margin: 0;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: SlateGrey;
+    /*padding: 1rem 0;*/
+    padding: 30px;
+    z-index: 10;
+  }
+
+  .footer__container {
+    width: 1340px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: inherit;
+  }
+
+  .footer__logo {
+    position:absolute;
+    width: 150px;
+  }
+
+  .footer_text{
+    position:absolute;
+    top: 140px;
+    left: 400px;
+    font-size: 18px;
+  }

@@ -1,0 +1,116 @@
+#wrapper{
+	position: relative;
+	top: 20px;
+	width:800px;
+	text-align:center;
+	margin:0 auto;
+	padding: 30px;
+	}
+input:hover{
+	border-color:#9D9014;
+	}
+
+
+
+.input{
+	border-color:#1245AB;
+	border-radius:5px;
+	width: 350px;
+	height:80px;
+	font-size: 1.5em;
+	}
+.input.a{
+	width:30px;
+	 display: inline-block;
+	}
+
+#logo{
+	width:300px;
+	margin-bottom:30px;
+	margin:50px;
+	}
+	
+#submit{
+	width: 250px;
+	height:70px;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	}
+
+div.a{
+		position: relative;
+		top: 100px;
+		box-shadow: 0 1px 2px gray;
+		border-radius: 20px;
+		background-color: white
+	}
+div.b{
+	height: 80px;
+	margin-top:20px;
+	}
+div.c{
+	height: 100px;
+	margin-top:30px;
+}
+
+div.d{
+	height: 150px;
+	margin-top:30px;
+}
+
+
+
+body{
+	background-color: whitesmoke;
+}
+
+input[type="radio"] {
+	margin:auto 10px;
+	padding:0; 
+	border: 1px solid #FFF; 
+	vertical-align:middle;}
+
+#hide{
+	margin-top: 100px;
+	height: 400px;
+	font-size: 1.4em;
+	background-color: white;
+	box-shadow: 0 1px 2px gray;
+	display:  none;
+	border-radius: 20px;
+	text-align: left;
+	text-align: center;
+}
+
+#sign_check{
+	padding:30px 0 0 0;
+}
+
+#hide span{
+	margin: 15px;
+
+}
+
+#button2{
+	height: 50px;
+	margin: 20px;
+	font-size: 15px;
+}
+
+#check_btn{
+	width: 150px;
+	height: 80px;
+	border-radius: 15px;
+}
+
+#email{
+	margin-left: 170px;
+}
+
+#select_email{
+	width: 150px;
+	font-size: 20px;
+	height: 50px;
+	margin-left: 15px ;
+}
